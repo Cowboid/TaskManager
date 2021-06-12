@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Task Manager</h1>
+        <form  class="form-login">
+            <input type="text" placeholder="Email" name="email" required autofocus>
+            <input type="password" placeholder="Password" name="password" required autocomplete="off">
+            <button class="login-btn">Log In</button>
+        </form>
+        <p class="login-error"></p>
+        <button class="register-btn">Create New Account</button>
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close">&times</span>
+            <h1>Sign Up</h1>
+            <form class="signup-form">
+                <input type="text" placeholder="Your name" name="name" required>
+                <input type="text" placeholder="Your email" name="email" required>
+                <input type="password" placeholder="Password" name="password" required autocomplete="off">
+                <p class="signup-error"></p>
+                <button class="signup-btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
