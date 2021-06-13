@@ -5,7 +5,7 @@ const todoList = document.querySelector(".todo-list")
 addBtn.addEventListener("click", addTask)
 todoList.addEventListener("click",  deleteCheck)
 
-const url = 'http://localhost:3000'
+const url = 'https://marin-task-manager.herokuapp.com/'
 
 //FETCH TASKS ----------------------------------------
 async function fetchTasks() {

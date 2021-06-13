@@ -39,7 +39,7 @@ formSignup.addEventListener('submit', (e) => {
 })
 
 const request = async (email, password, name) => {
-    const url = 'http://localhost:3000'
+    const url = 'https://marin-task-manager.herokuapp.com/'
     
     fetch(url + (name ? '/users': '/users/login'), {
         method: 'POST',
